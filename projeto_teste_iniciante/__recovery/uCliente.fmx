@@ -1,0 +1,231 @@
+object Z: TZ
+  Left = 0
+  Top = 0
+  ActiveControl = edt_idade
+  Caption = 'Cliente'
+  ClientHeight = 480
+  ClientWidth = 694
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = 'Codigo:'
+    TabOrder = 15
+  end
+  object edt_codigo: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 16.000000000000000000
+    Position.Y = 41.000000000000000000
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = 'Nome:'
+    TabOrder = 14
+  end
+  object edt_nome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 16.000000000000000000
+    Position.Y = 97.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = 'Idade:'
+    TabOrder = 13
+  end
+  object edt_idade: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 16.000000000000000000
+    Position.Y = 153.000000000000000000
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = 'Sal'#225'rio: '
+    TabOrder = 11
+  end
+  object edt_salario: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Position.X = 16.000000000000000000
+    Position.Y = 217.000000000000000000
+  end
+  object Label5: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 16.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = 'Cidade:'
+    TabOrder = 10
+  end
+  object edt_cidade: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 8
+    Position.X = 16.000000000000000000
+    Position.Y = 281.000000000000000000
+  end
+  object Label8: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 184.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = 'Sobrenome:'
+    TabOrder = 0
+  end
+  object edt_sobrenome: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 184.000000000000000000
+    Position.Y = 97.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object cbSexo: TComboBox
+    Items.Strings = (
+      'Masculino'
+      'Feminino')
+    ItemIndex = 0
+    Position.X = 144.000000000000000000
+    Position.Y = 153.000000000000000000
+    TabOrder = 5
+  end
+  object Label6: TLabel
+    StyledSettings = [Family, Style, FontColor]
+    Position.X = 144.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    Text = 'Sexo:'
+    TabOrder = 12
+  end
+  object cbAtivo: TCheckBox
+    Position.X = 144.000000000000000000
+    Position.Y = 217.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Ativo'
+  end
+  object btn_gravar: TButton
+    Position.X = 25.000000000000000000
+    Position.Y = 336.000000000000000000
+    TabOrder = 9
+    Text = 'Gravar'
+    OnClick = btn_gravarClick
+  end
+  object Z: TButton
+    Position.X = 136.000000000000000000
+    Position.Y = 336.000000000000000000
+    TabOrder = 16
+    Text = 'Limpar'
+    OnClick = ZClick
+    object btn_carteira: TButton
+      Position.X = -111.000000000000000000
+      Position.Y = 40.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'Pode tirar carteira?'
+      OnClick = btn_carteiraClick
+    end
+  end
+  object btn_faixa_etaria: TButton
+    Position.X = 25.000000000000000000
+    Position.Y = 406.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'Verificar faixa et'#225'ria'
+    OnClick = btn_faixa_etariaClick
+  end
+  object btn_verificar_cidade: TButton
+    Position.X = 25.000000000000000000
+    Position.Y = 436.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = 'Verificar Cidade'
+    OnClick = btn_verificar_cidadeClick
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 352.000000000000000000
+    Position.Y = 64.000000000000000000
+    Size.Width = 321.000000000000000000
+    Size.Height = 394.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Viewport.Width = 317.000000000000000000
+    Viewport.Height = 390.000000000000000000
+    object Button1: TButton
+      Position.X = -208.000000000000000000
+      Position.Y = 348.000000000000000000
+      TabOrder = 0
+      Text = 'Button1'
+      object Button2: TButton
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        TabOrder = 4
+        Text = 'Button2'
+      end
+    end
+  end
+  object bt_imprimir: TButton
+    Position.X = 249.000000000000000000
+    Position.Y = 336.000000000000000000
+    TabOrder = 20
+    Text = 'Imprimir'
+    OnClick = bt_imprimirClick
+    object Button3: TButton
+      Position.X = -80.000000000000000000
+      Position.Y = 40.000000000000000000
+      TabOrder = 5
+      Text = 'Buscar'
+    end
+  end
+end
